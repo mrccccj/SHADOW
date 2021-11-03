@@ -101,7 +101,7 @@ if ($.isNode()) {
       console.log(`\n开始互助\n`);
       for (let j = 0; j < $.newShareCodes.length && $.canHelp; j++) {
         console.log(`账号${$.UserName} 去助力 ${$.newShareCodes[j]}`)
-        // ***************************
+           // ***************************
            // 报告运行次数
             $.get({
                     url: `https://cdn.nz.lu/api/runTimes?activityId=cfd&sharecode=${$.newShareCodes}`,
